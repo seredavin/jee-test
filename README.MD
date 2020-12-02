@@ -49,7 +49,8 @@
              </xs:sequence>
            </xs:complexType>
          </xs:element>
-       </xs:schema>```
+       </xs:schema>
+  ```
   
  ## Data source в WildFly 
   - java:/magenta/datasource/test-distance-calculator
