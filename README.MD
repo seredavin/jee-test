@@ -1,5 +1,5 @@
-#distance-calculator 
-##endpoints
+# distance-calculator 
+## endpoints
 - GET /rest/city - List of all cities in the DB. (no parameters)
 - GET /rest/calc - Calculate distance
     - Request:
@@ -20,7 +20,7 @@
     - from: city ID
     - to: city ID
     
-##Upload data to the DB
+## Upload data to the DB
 - Path - /upload
 - Schema
     ```<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -51,5 +51,5 @@
          </xs:element>
        </xs:schema>```
   
- ##Data source в WildFly 
+ ## Data source в WildFly 
   - java:/magenta/datasource/test-distance-calculator
