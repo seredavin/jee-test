@@ -1,0 +1,13 @@
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <display-name>Archetype Created Web Application</display-name>
+    <resource-ref>
+        <description>The default DS</description>
+        <res-ref-name>jdbc/liquibaseDS</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+<!--        <lookup-name>java:/magenta/datasource/test-distance-calculator</lookup-name>-->
+        <lookup-name>java:jboss/datasources/ExampleDS</lookup-name>
+    </resource-ref>
+</web-app>
