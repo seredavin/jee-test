@@ -7,7 +7,7 @@
         <res-ref-name>jdbc/liquibaseDS</res-ref-name>
         <res-type>javax.sql.DataSource</res-type>
         <res-auth>Container</res-auth>
-<!--        <lookup-name>java:/magenta/datasource/test-distance-calculator</lookup-name>-->
-        <lookup-name>java:jboss/datasources/ExampleDS</lookup-name>
+        <lookup-name>java:/magenta/datasource/test-distance-calculator</lookup-name>
+<!--        <lookup-name>java:jboss/datasources/ExampleDS</lookup-name>-->
     </resource-ref>
 </web-app>
