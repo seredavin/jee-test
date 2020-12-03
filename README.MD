@@ -9,8 +9,8 @@
                 <xs:complexType>
                   <xs:sequence>
                     <xs:element type="xs:string" name="distanceType"/>
-                    <xs:element type="xs:int" name="from"/>
-                    <xs:element type="xs:int" name="to"/>
+                    <xs:element type="xs:long" name="from"/>
+                    <xs:element type="xs:long" name="to"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
@@ -30,7 +30,7 @@
                <xs:element name="city" maxOccurs="unbounded" minOccurs="0">
                  <xs:complexType>
                    <xs:sequence>
-                     <xs:element type="xs:string" name="id"/>
+                     <xs:element type="xs:long" name="id"/>
                      <xs:element type="xs:string" name="name"/>
                      <xs:element type="xs:float" name="latitude"/>
                      <xs:element type="xs:float" name="longitude"/>
@@ -40,9 +40,9 @@
                <xs:element name="distance" maxOccurs="unbounded" minOccurs="0">
                  <xs:complexType>
                    <xs:sequence>
-                     <xs:element type="xs:int" name="from"/>
-                     <xs:element type="xs:int" name="to"/>
-                     <xs:element type="xs:short" name="distance"/>
+                     <xs:element type="xs:long" name="from"/>
+                     <xs:element type="xs:long" name="to"/>
+                     <xs:element type="xs:int" name="distance"/>
                    </xs:sequence>
                  </xs:complexType>
                </xs:element>
